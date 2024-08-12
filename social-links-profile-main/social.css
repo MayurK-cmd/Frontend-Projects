@@ -1,0 +1,59 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    place-content: center;
+    display: flex;
+    
+}
+
+.card{
+    background-color: hsl(0, 0%, 12%);
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+
+    img{
+        border-radius: 100%;
+    }
+
+    .name{
+        color: hsl(0, 0%, 100%);
+    }
+
+    .location{
+        color: hsl(75, 94%, 57%);
+    }
+
+    .desc{
+        color: hsl(0, 0%, 100%);
+    }
+
+    
+    
+    .links{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    }
+
+    .btn{
+        background-color: hsl(0, 0%, 20%);
+        color:  hsl(0, 0%, 100%);
+        border-radius: 5%;
+        padding: 10px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .btn:hover{
+        background-color: hsl(75, 94%, 57%);
+        color:  hsl(0, 0%, 100%);
+        transition: 0.3s linear;
+    }
+
+    
+    
+}
